@@ -61,3 +61,26 @@ textarea {
   border: none;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
+
+button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #646cff;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: background-color 300ms;
+}
+
+.summarized-text {
+  border: 1px solid #ccc;
+  margin: auto;
+  width: 50%;
+  padding: 1rem;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
